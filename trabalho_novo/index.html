@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="hero">
+        <div id="container" class="container">
+            <img src="https://secman.cnhindustrial.com/assets/img/cnhi/slides/3.png" alt="" class="ativa">
+            <img src="https://secman.cnhindustrial.com/assets/img/cnhi/slides/2.png" alt="">
+            <img src="https://secman.cnhindustrial.com/assets/img/cnhi/slides/1.jpg" alt="">
+        </div>
+        <div class="login">
+            <h1 class="text-login">Seja bem-vindo!</h1>
+            
+            <label class="form" for="">
+                <input type="text" placeholder="Login">
+                <input type="password" placeholder="Senha">
+            </label>
+            <button class="botao">
+                Entrar
+            </button>
+            <a href="#cadastro">Se inscrever</a>
+        </div>
+    </div>
+
+    <!-- Seção de Cadastro -->
+    <section id="cadastro" class="form-container">
+        <div class="form-wrapper">
+            <h2>Trabalhe Conosco: </h2>
+            <div class="form-header">
+                
+            </div>
+            <div class="form-body">
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="dataNascimento">Data de Nascimento:</label>
+                    <input type="date" id="dataNascimento" name="dataNascimento" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="matricula">Matrícula:</label>
+                    <input type="text" id="matricula" name="matricula" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" name="senha" required>
+                </div>
+
+                <div class="form-group">
+                    <button type="button" onclick="enviarCadastro()">Enviar Cadastro</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="java.js"></script>
+</body>
+<br>
+<br>
+<br>
+<footer class="footer">
+    <p>&copy; 2023 New Holland & CNH Industrial</p>
+</footer>
+</html>
